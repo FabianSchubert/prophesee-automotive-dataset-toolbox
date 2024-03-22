@@ -21,9 +21,9 @@ import cv2
 import argparse
 from glob import glob
 
-from src.visualize import vis_utils as vis
+from prophesee_toolbox.visualize import vis_utils as vis
 
-from src.io.psee_loader import PSEELoader
+from prophesee_toolbox.io.psee_loader import PSEELoader
 
 
 def play_files_parallel(td_files, labels=None, delta_t=50000, skip=0):

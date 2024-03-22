@@ -10,9 +10,9 @@
 import glob
 import numpy as np
 import argparse
-from src.metrics.coco_eval import evaluate_detection
-from src.io.box_filtering import filter_boxes
-from src.io.box_loading import reformat_boxes
+from prophesee_toolbox.metrics.coco_eval import evaluate_detection
+from prophesee_toolbox.io.box_filtering import filter_boxes
+from prophesee_toolbox.io.box_loading import reformat_boxes
 
 
 def evaluate_folders(dt_folder, gt_folder, camera):
